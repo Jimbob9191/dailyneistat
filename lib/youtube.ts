@@ -4,7 +4,7 @@ export interface Video {
   publishedAt: string;
 }
 
-const CASEY_UPLOADS_PLAYLIST = "UUe0TLA0EsQbE-MjuHXevj2A";
+const CASEY_UPLOADS_PLAYLIST = "UUtinbF-Q-fVthA0qrFQTgXQ";
 
 export async function getCaseyVideos(): Promise<Video[]> {
   const apiKey = process.env.YOUTUBE_API_KEY;
